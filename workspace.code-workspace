@@ -1,0 +1,33 @@
+{
+    "folders": [
+        {
+            "name": "root",
+            "path": "./"
+        }
+    ],
+    "settings": {
+        "files.watcherExclude": {
+            "**/__pycache__/**": true,
+            "**/.venv/**": true,
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/node_modules/**": true,
+            "**/node_modules/*/**": true,
+            "**/dist/**": true,
+            "**/tmp/**": true,
+            "**/documentation/**": true
+        },
+        "files.exclude": {
+            "**/__pycache__/**": true,
+            "**/.venv/**": true,
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/node_modules/**": true,
+            "**/node_modules/*/**": true,
+            "**/dist/**": true,
+            "**/tmp/**": true,
+            "**/documentation/**": true
+        },
+        "git.ignoreLimitWarning": true
+    }
+}
