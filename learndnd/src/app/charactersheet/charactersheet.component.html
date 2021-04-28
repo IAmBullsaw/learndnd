@@ -2,23 +2,36 @@
   <h1>{{ name }}</h1>
   <span> {{ race }} level {{ level }} {{ class }}</span>
   <div id="character-description">
-    <div>
-      Age {{ characterdescription.age }}
-    </div>
-    <div>
-      Height {{ characterdescription.height }}
-    </div>
-    <div>
-      Weight {{ characterdescription.weight }}
-    </div>
+    <div>Age {{ characterdescription.age }}</div>
+    <div>Height {{ characterdescription.height }}</div>
+    <div>Weight {{ characterdescription.weight }}</div>
   </div>
   <div id="character-abilityscores">
     <h2>Ability Scores</h2>
-    <div>Strength {{ abilityscores.strength }} <br>{{ modifier(abilityscores.strength) }}</div>
-    <div>Dexterity {{ abilityscores.dexterity }} <br> {{ modifier(abilityscores.dexterity) }}</div>
-    <div>Constitution {{ abilityscores.constitution }} <br> {{ modifier(abilityscores.constitution) }}</div>
-    <div>Intelligence {{ abilityscores.intelligence }} <br> {{ modifier(abilityscores.intelligence) }}</div>
-    <div>Wisdom {{ abilityscores.wisdom }} <br> {{ modifier(abilityscores.wisdom) }}</div>
-    <div>Charisma {{ abilityscores.charisma }} <br> {{ modifier(abilityscores.charisma) }}</div>
+    <div>
+      Strength {{ abilityscores.strength }} <br />{{
+        modifier(abilityscores.strength)
+      }}
+    </div>
+    <div>
+      Dexterity {{ abilityscores.dexterity }} <br />
+      {{ modifier(abilityscores.dexterity) }}
+    </div>
+    <div>
+      Constitution {{ abilityscores.constitution }} <br />
+      {{ modifier(abilityscores.constitution) }}
+    </div>
+    <div>
+      Intelligence {{ abilityscores.intelligence }} <br />
+      {{ modifier(abilityscores.intelligence) }}
+    </div>
+    <div>
+      Wisdom {{ abilityscores.wisdom }} <br />
+      {{ modifier(abilityscores.wisdom) }}
+    </div>
+    <div>
+      Charisma {{ abilityscores.charisma }} <br />
+      {{ modifier(abilityscores.charisma) }}
+    </div>
   </div>
 </div>

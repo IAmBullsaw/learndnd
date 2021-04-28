@@ -34,9 +34,9 @@ export class CharactersheetComponent implements OnInit {
 
   hitpoints = 8;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void { }
+  ngOnInit(): void {}
 
   /**
    * return the modifier corresponding to the abilityscore, returns -6 on fail
